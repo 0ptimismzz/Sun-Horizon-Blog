@@ -1,0 +1,688 @@
+2025-04-10 15:34:55.888 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 15:34:55.903 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 31275 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 15:34:55.904 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 15:34:56.179 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 15:34:56.180 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 15:34:56.190 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-10 15:34:56.327 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 15:34:56.332 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 15:34:56.333 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 15:34:56.333 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 15:34:56.353 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 15:34:56.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 436 ms
+2025-04-10 15:34:56.709 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 15:34:56.718 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 15:34:56.723 [main] INFO  com.sun.files.Application - Started Application in 1.015 seconds (process running for 1.27)
+2025-04-10 15:35:09.751 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10 15:35:09.751 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-10 15:35:09.752 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-10 16:44:41.856 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 16:44:41.861 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 16:44:46.721 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 16:44:46.740 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 33676 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 16:44:46.741 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 16:44:47.027 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 16:44:47.028 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 16:44:47.038 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-10 16:44:47.271 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 16:44:47.277 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 16:44:47.278 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 16:44:47.278 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 16:44:47.299 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 16:44:47.299 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 543 ms
+2025-04-10 16:44:47.362 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+2025-04-10 16:44:47.363 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-10 16:44:47.369 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-10 16:44:47.374 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.sun.files.Application.main(Application.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: invalid hostname 127.0.0.1:9000
+	at io.minio.http.HttpUtils.validateHostnameOrIPAddress(HttpUtils.java:108)
+	at io.minio.http.HttpUtils.getBaseUrl(HttpUtils.java:122)
+	at io.minio.MinioAsyncClient$Builder.endpoint(MinioAsyncClient.java:3281)
+	at io.minio.MinioClient$Builder.endpoint(MinioClient.java:2473)
+	at com.sun.files.config.MinioClientConfig.minioClient(MinioClientConfig.java:65)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.CGLIB$minioClient$8(<generated>)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.minioClient(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 51 common frames omitted
+2025-04-10 16:45:37.297 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 16:45:37.317 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 33716 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 16:45:37.317 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 16:45:37.567 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 16:45:37.568 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 16:45:37.578 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-10 16:45:37.789 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 16:45:37.794 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 16:45:37.795 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 16:45:37.795 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 16:45:37.812 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 16:45:37.813 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 482 ms
+2025-04-10 16:45:37.864 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+2025-04-10 16:45:37.865 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-10 16:45:37.871 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-10 16:45:37.875 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.sun.files.Application.main(Application.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: invalid hostname 127.0.0.1:9000
+	at io.minio.http.HttpUtils.validateHostnameOrIPAddress(HttpUtils.java:108)
+	at io.minio.http.HttpUtils.getBaseUrl(HttpUtils.java:122)
+	at io.minio.MinioAsyncClient$Builder.endpoint(MinioAsyncClient.java:3281)
+	at io.minio.MinioClient$Builder.endpoint(MinioClient.java:2473)
+	at com.sun.files.config.MinioClientConfig.minioClient(MinioClientConfig.java:65)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.CGLIB$minioClient$8(<generated>)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.minioClient(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 51 common frames omitted
+2025-04-10 16:51:42.404 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 16:51:42.421 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 33931 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 16:51:42.421 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 16:51:42.691 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 16:51:42.692 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 16:51:42.702 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-10 16:51:42.922 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 16:51:42.928 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 16:51:42.928 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 16:51:42.928 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 16:51:42.947 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 16:51:42.947 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 514 ms
+2025-04-10 16:51:43.003 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+2025-04-10 16:51:43.004 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-10 16:51:43.011 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-10 16:51:43.015 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.sun.files.Application.main(Application.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: invalid hostname 127.0.0.1:9000
+	at io.minio.http.HttpUtils.validateHostnameOrIPAddress(HttpUtils.java:108)
+	at io.minio.http.HttpUtils.getBaseUrl(HttpUtils.java:122)
+	at io.minio.MinioAsyncClient$Builder.endpoint(MinioAsyncClient.java:3281)
+	at io.minio.MinioClient$Builder.endpoint(MinioClient.java:2473)
+	at com.sun.files.config.MinioClientConfig.minioClient(MinioClientConfig.java:65)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.CGLIB$minioClient$8(<generated>)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.minioClient(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 51 common frames omitted
+2025-04-10 17:00:19.803 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:00:19.817 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 34254 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:00:19.817 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:00:20.108 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:00:20.109 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:00:20.120 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:00:20.359 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:00:20.365 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:00:20.366 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:00:20.366 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:00:20.386 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:00:20.387 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 555 ms
+2025-04-10 17:00:20.447 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+2025-04-10 17:00:20.448 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-10 17:00:20.455 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-10 17:00:20.460 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.sun.files.Application.main(Application.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname 127.0.0.1:9000
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: invalid hostname 127.0.0.1:9000
+	at io.minio.http.HttpUtils.validateHostnameOrIPAddress(HttpUtils.java:108)
+	at io.minio.http.HttpUtils.getBaseUrl(HttpUtils.java:122)
+	at io.minio.MinioAsyncClient$Builder.endpoint(MinioAsyncClient.java:3281)
+	at io.minio.MinioClient$Builder.endpoint(MinioClient.java:2473)
+	at com.sun.files.config.MinioClientConfig.minioClient(MinioClientConfig.java:65)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.CGLIB$minioClient$8(<generated>)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.minioClient(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 51 common frames omitted
+2025-04-10 17:02:34.076 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:02:34.092 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 34359 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:02:34.092 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:02:34.355 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:02:34.356 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:02:34.366 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:02:34.589 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:02:34.595 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:02:34.595 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:02:34.595 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:02:34.614 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:02:34.614 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 509 ms
+2025-04-10 17:02:34.669 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname
+2025-04-10 17:02:34.670 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-04-10 17:02:34.677 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-10 17:02:34.681 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileUploaderController': Unsatisfied dependency expressed through field 'uploaderService': Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1155)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1121)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1056)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.sun.files.Application.main(Application.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'uploaderServiceImpl': Unsatisfied dependency expressed through field 'minioClient': Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1445)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 22 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'minioClient' defined in class path resource [com/sun/files/config/MinioClientConfig.class]: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1361)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:347)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1609)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1555)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	... 36 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [io.minio.MinioClient]: Factory method 'minioClient' threw exception with message: invalid hostname
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:199)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: invalid hostname
+	at io.minio.http.HttpUtils.validateHostnameOrIPAddress(HttpUtils.java:90)
+	at io.minio.http.HttpUtils.getBaseUrl(HttpUtils.java:105)
+	at io.minio.MinioAsyncClient$Builder.endpoint(MinioAsyncClient.java:3251)
+	at io.minio.MinioClient$Builder.endpoint(MinioClient.java:2405)
+	at com.sun.files.config.MinioClientConfig.minioClient(MinioClientConfig.java:65)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.CGLIB$minioClient$8(<generated>)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:370)
+	at com.sun.files.config.MinioClientConfig$$SpringCGLIB$$0.minioClient(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	... 51 common frames omitted
+2025-04-10 17:05:04.916 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:05:04.931 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 34461 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:05:04.932 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:05:05.199 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:05:05.201 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:05:05.210 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:05:05.429 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:05:05.434 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:05:05.435 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:05:05.435 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:05:05.454 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:05:05.454 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 509 ms
+2025-04-10 17:05:05.938 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:05:05.945 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 17:05:05.949 [main] INFO  com.sun.files.Application - Started Application in 1.196 seconds (process running for 1.464)
+2025-04-10 17:09:19.282 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 17:09:19.284 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 17:17:58.702 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:17:58.717 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 34970 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:17:58.717 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:17:58.955 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:17:58.956 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:17:58.965 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:17:59.174 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:17:59.179 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:17:59.180 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:17:59.180 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:17:59.199 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:17:59.199 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 470 ms
+2025-04-10 17:17:59.712 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:17:59.719 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 17:17:59.724 [main] INFO  com.sun.files.Application - Started Application in 1.186 seconds (process running for 1.416)
+2025-04-10 17:19:12.933 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 17:19:12.936 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 17:19:17.736 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:19:17.752 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 35017 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:19:17.752 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:19:18.017 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:19:18.018 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:19:18.028 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:19:18.250 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:19:18.255 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:19:18.256 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:19:18.256 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:19:18.273 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:19:18.274 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 508 ms
+2025-04-10 17:19:18.782 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:19:18.789 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 17:19:18.793 [main] INFO  com.sun.files.Application - Started Application in 1.25 seconds (process running for 1.51)
+2025-04-10 17:27:51.188 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 17:27:51.190 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 17:29:43.097 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:29:43.118 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 35555 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:29:43.118 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:29:43.379 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:29:43.380 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:29:43.389 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:29:43.597 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:29:43.602 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:29:43.603 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:29:43.603 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:29:43.622 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:29:43.622 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 490 ms
+2025-04-10 17:29:44.094 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:29:44.101 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 17:29:44.105 [main] INFO  com.sun.files.Application - Started Application in 1.228 seconds (process running for 1.463)
+2025-04-10 17:29:59.644 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10 17:29:59.645 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-10 17:29:59.646 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-10 17:29:59.676 [http-nio-8004-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-10 17:34:02.791 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 17:34:02.794 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 17:34:04.196 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:34:04.217 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 35725 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:34:04.217 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:34:04.472 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:34:04.473 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:34:04.482 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:34:04.699 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:34:04.704 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:34:04.704 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:34:04.704 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:34:04.723 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:34:04.723 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 492 ms
+2025-04-10 17:34:05.209 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:34:05.215 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 17:34:05.219 [main] INFO  com.sun.files.Application - Started Application in 1.199 seconds (process running for 1.417)
+2025-04-10 17:35:09.017 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10 17:35:09.018 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-10 17:35:09.018 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-10 17:35:09.051 [http-nio-8004-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-10 17:37:33.452 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 17:37:33.455 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 17:37:34.812 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 17:37:34.831 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 35864 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 17:37:34.832 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 17:37:35.105 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 17:37:35.106 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 17:37:35.115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-10 17:37:35.327 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 17:37:35.331 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:37:35.332 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 17:37:35.332 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 17:37:35.352 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 17:37:35.352 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 503 ms
+2025-04-10 17:37:35.836 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 17:37:35.842 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 17:37:35.847 [main] INFO  com.sun.files.Application - Started Application in 1.222 seconds (process running for 1.421)
+2025-04-10 17:37:41.027 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10 17:37:41.027 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-10 17:37:41.028 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-10 17:37:41.067 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:37:41.141 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:37:53.799 [http-nio-8004-exec-4] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:37:53.813 [http-nio-8004-exec-4] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:39:39.992 [http-nio-8004-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:39:40.005 [http-nio-8004-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:40:49.843 [http-nio-8004-exec-10] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:40:49.855 [http-nio-8004-exec-10] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:41:28.810 [http-nio-8004-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:41:28.822 [http-nio-8004-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:42:03.019 [http-nio-8004-exec-6] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:42:03.029 [http-nio-8004-exec-6] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:44:14.600 [http-nio-8004-exec-9] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:44:14.613 [http-nio-8004-exec-9] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:45:10.398 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:45:10.409 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:46:21.307 [http-nio-8004-exec-5] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:46:21.320 [http-nio-8004-exec-5] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 17:46:49.755 [http-nio-8004-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 17:46:49.768 [http-nio-8004-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 19:24:53.772 [http-nio-8004-exec-10] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 19:24:53.788 [http-nio-8004-exec-10] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 19:24:58.700 [http-nio-8004-exec-1] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 19:24:58.710 [http-nio-8004-exec-1] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 19:25:21.145 [http-nio-8004-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 19:25:21.155 [http-nio-8004-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 19:52:54.094 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 19:52:54.096 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 19:52:55.675 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 19:52:55.693 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 39778 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 19:52:55.693 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 19:52:55.950 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 19:52:55.951 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 19:52:55.961 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-10 19:52:56.175 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 19:52:56.180 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 19:52:56.180 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 19:52:56.180 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 19:52:56.199 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 19:52:56.199 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 493 ms
+2025-04-10 19:52:56.716 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 19:52:56.722 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 19:52:56.726 [main] INFO  com.sun.files.Application - Started Application in 1.237 seconds (process running for 1.462)
+2025-04-10 19:53:15.143 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10 19:53:15.144 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-10 19:53:15.145 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-10 19:53:15.183 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 19:53:15.250 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 19:53:45.763 [http-nio-8004-exec-5] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 19:53:45.774 [http-nio-8004-exec-5] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 19:54:23.735 [http-nio-8004-exec-8] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 19:54:23.746 [http-nio-8004-exec-8] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 19:54:58.821 [http-nio-8004-exec-1] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 19:54:58.832 [http-nio-8004-exec-1] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 20:00:22.669 [http-nio-8004-exec-4] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 20:00:22.682 [http-nio-8004-exec-4] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 20:01:11.839 [http-nio-8004-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 20:01:11.851 [http-nio-8004-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 20:11:16.933 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-10 20:11:16.935 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-10 20:11:18.707 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-10 20:11:18.723 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 40435 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-10 20:11:18.724 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-10 20:11:19.052 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-10 20:11:19.053 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-10 20:11:19.066 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-10 20:11:19.326 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-10 20:11:19.331 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-10 20:11:19.332 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-10 20:11:19.333 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-10 20:11:19.354 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-10 20:11:19.354 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 609 ms
+2025-04-10 20:11:19.909 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-10 20:11:19.916 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-10 20:11:19.920 [main] INFO  com.sun.files.Application - Started Application in 1.426 seconds (process running for 1.655)
+2025-04-10 20:11:41.219 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-10 20:11:41.219 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-10 20:11:41.220 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-10 20:11:41.258 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 20:11:41.321 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-10 20:12:03.820 [http-nio-8004-exec-4] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-10 20:12:03.831 [http-nio-8004-exec-4] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝

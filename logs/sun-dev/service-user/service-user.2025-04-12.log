@@ -1,0 +1,116 @@
+2025-04-12 16:22:02.635 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 16:22:02.639 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 16:22:04.166 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 16:22:04.200 [main] INFO  com.sun.user.Application - Starting Application using Java 21.0.6 with PID 87880 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-12 16:22:04.201 [main] INFO  com.sun.user.Application - The following 1 profile is active: "dev"
+2025-04-12 16:22:04.559 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-12 16:22:04.560 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-12 16:22:04.571 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-04-12 16:22:04.628 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sun.user]' package. Please check your configuration.
+2025-04-12 16:22:04.661 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=de86c344-6494-3795-8b6d-7e8fb4aa302c
+2025-04-12 16:22:04.870 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8003 (http)
+2025-04-12 16:22:04.875 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:22:04.876 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 16:22:04.876 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 16:22:04.895 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 16:22:04.895 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 662 ms
+2025-04-12 16:22:05.356 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2025-04-12 16:22:05.357 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2025-04-12 16:22:05.357 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2025-04-12 16:22:05.357 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2025-04-12 16:22:05.560 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:22:05.568 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8003 (http) with context path '/'
+2025-04-12 16:22:05.578 [main] INFO  com.sun.user.Application - Started Application in 1.833 seconds (process running for 2.251)
+2025-04-12 16:25:52.788 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 16:25:52.790 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 16:25:53.986 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 16:25:54.003 [main] INFO  com.sun.user.Application - Starting Application using Java 21.0.6 with PID 88065 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-12 16:25:54.004 [main] INFO  com.sun.user.Application - The following 1 profile is active: "dev"
+2025-04-12 16:25:54.327 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-12 16:25:54.328 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-12 16:25:54.339 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-04-12 16:25:54.397 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sun.user]' package. Please check your configuration.
+2025-04-12 16:25:54.431 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=de86c344-6494-3795-8b6d-7e8fb4aa302c
+2025-04-12 16:25:54.644 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8003 (http)
+2025-04-12 16:25:54.649 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:25:54.650 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 16:25:54.650 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 16:25:54.667 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 16:25:54.667 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 648 ms
+2025-04-12 16:25:55.104 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2025-04-12 16:25:55.104 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2025-04-12 16:25:55.104 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2025-04-12 16:25:55.105 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2025-04-12 16:25:55.272 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:25:55.279 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8003 (http) with context path '/'
+2025-04-12 16:25:55.285 [main] INFO  com.sun.user.Application - Started Application in 1.501 seconds (process running for 1.816)
+2025-04-12 16:26:06.327 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 16:26:06.327 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 16:26:06.329 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-04-12 16:26:06.498 [http-nio-8003-exec-1] WARN  c.s.u.controller.PassportController - 3497
+2025-04-12 16:26:10.884 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 16:26:10.886 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 16:26:12.119 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 16:26:12.136 [main] INFO  com.sun.user.Application - Starting Application using Java 21.0.6 with PID 88080 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-12 16:26:12.137 [main] INFO  com.sun.user.Application - The following 1 profile is active: "dev"
+2025-04-12 16:26:12.451 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-12 16:26:12.452 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-12 16:26:12.465 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-04-12 16:26:12.522 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sun.user]' package. Please check your configuration.
+2025-04-12 16:26:12.555 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=de86c344-6494-3795-8b6d-7e8fb4aa302c
+2025-04-12 16:26:12.766 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8003 (http)
+2025-04-12 16:26:12.771 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:26:12.772 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 16:26:12.772 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 16:26:12.792 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 16:26:12.792 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 641 ms
+2025-04-12 16:26:13.225 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2025-04-12 16:26:13.226 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2025-04-12 16:26:13.226 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2025-04-12 16:26:13.226 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2025-04-12 16:26:13.387 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:26:13.394 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8003 (http) with context path '/'
+2025-04-12 16:26:13.399 [main] INFO  com.sun.user.Application - Started Application in 1.559 seconds (process running for 1.875)
+2025-04-12 16:26:20.924 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 16:26:20.924 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 16:26:20.926 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-12 16:26:32.093 [http-nio-8003-exec-3] WARN  jakarta.persistence.spi - jakarta.persistence.spi::No valid providers found.
+2025-04-12 16:26:32.099 [http-nio-8003-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-12 16:26:32.124 [http-nio-8003-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - DataSourceHikariCP - Starting...
+2025-04-12 16:26:32.245 [http-nio-8003-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@24e7cd28
+2025-04-12 16:26:32.246 [http-nio-8003-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - DataSourceHikariCP - Start completed.
+2025-04-12 16:26:32.256 [http-nio-8003-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-12 16:27:24.905 [http-nio-8003-exec-9] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-12 16:27:25.028 [http-nio-8003-exec-9] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-12 16:27:26.267 [http-nio-8003-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-12 16:27:26.268 [http-nio-8003-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-12 16:27:26.272 [http-nio-8003-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-12 16:27:26.273 [http-nio-8003-exec-3] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-12 16:37:00.286 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-12 16:37:00.287 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-12 16:37:00.293 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DataSourceHikariCP - Shutdown initiated...
+2025-04-12 16:37:00.295 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DataSourceHikariCP - Shutdown completed.
+2025-04-12 16:37:02.526 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-12 16:37:02.555 [main] INFO  com.sun.user.Application - Starting Application using Java 21.0.6 with PID 88449 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-12 16:37:02.557 [main] INFO  com.sun.user.Application - The following 1 profile is active: "dev"
+2025-04-12 16:37:03.020 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-12 16:37:03.021 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-12 16:37:03.034 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2025-04-12 16:37:03.098 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sun.user]' package. Please check your configuration.
+2025-04-12 16:37:03.140 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=de86c344-6494-3795-8b6d-7e8fb4aa302c
+2025-04-12 16:37:03.385 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8003 (http)
+2025-04-12 16:37:03.391 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:37:03.392 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-12 16:37:03.392 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-12 16:37:03.413 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-12 16:37:03.413 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 803 ms
+2025-04-12 16:37:03.910 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2025-04-12 16:37:03.910 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2025-04-12 16:37:03.910 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2025-04-12 16:37:03.910 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2025-04-12 16:37:04.098 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2025-04-12 16:37:04.104 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8003 (http) with context path '/'
+2025-04-12 16:37:04.110 [main] INFO  com.sun.user.Application - Started Application in 2.28 seconds (process running for 2.635)
+2025-04-12 16:37:38.266 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-12 16:37:38.266 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-12 16:37:38.267 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

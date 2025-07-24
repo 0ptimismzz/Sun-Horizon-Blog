@@ -1,0 +1,146 @@
+2025-04-11 09:32:49.481 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 09:32:49.484 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 09:32:51.206 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 09:32:51.225 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 52914 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 09:32:51.225 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-11 09:32:51.497 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 09:32:51.498 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 09:32:51.507 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-11 09:32:51.727 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-11 09:32:51.732 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:32:51.732 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 09:32:51.732 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 09:32:51.751 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 09:32:51.751 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 512 ms
+2025-04-11 09:32:52.254 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:32:52.261 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-11 09:32:52.265 [main] INFO  com.sun.files.Application - Started Application in 1.268 seconds (process running for 1.529)
+2025-04-11 09:33:05.358 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 09:33:05.358 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 09:33:05.359 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 09:33:05.404 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-11 09:33:05.468 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 09:34:38.271 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 09:34:38.273 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 09:34:39.942 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 09:34:39.961 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 52986 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 09:34:39.961 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-11 09:34:40.259 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 09:34:40.260 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 09:34:40.271 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-04-11 09:34:40.517 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-11 09:34:40.522 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:34:40.523 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 09:34:40.523 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 09:34:40.542 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 09:34:40.542 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 563 ms
+2025-04-11 09:34:41.066 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:34:41.072 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-11 09:34:41.077 [main] INFO  com.sun.files.Application - Started Application in 1.334 seconds (process running for 1.611)
+2025-04-11 09:35:01.894 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 09:35:01.895 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 09:35:01.895 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-04-11 09:35:01.931 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-11 09:35:01.989 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 09:35:45.813 [http-nio-8004-exec-5] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-11 09:35:45.826 [http-nio-8004-exec-5] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 09:41:51.692 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 09:41:51.694 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 09:41:53.119 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 09:41:53.135 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 53245 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 09:41:53.136 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-11 09:41:53.383 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 09:41:53.384 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 09:41:53.393 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-11 09:41:53.602 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-11 09:41:53.607 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:41:53.607 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 09:41:53.607 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 09:41:53.625 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 09:41:53.625 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 475 ms
+2025-04-11 09:41:54.105 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:41:54.112 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-11 09:41:54.116 [main] INFO  com.sun.files.Application - Started Application in 1.196 seconds (process running for 1.427)
+2025-04-11 09:42:12.971 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 09:42:12.973 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 09:42:14.416 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 09:42:14.437 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 53261 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 09:42:14.438 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-11 09:42:14.695 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 09:42:14.695 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 09:42:14.705 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2025-04-11 09:42:14.926 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-11 09:42:14.931 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:42:14.932 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 09:42:14.932 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 09:42:14.950 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 09:42:14.950 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 497 ms
+2025-04-11 09:42:15.433 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-11 09:42:15.439 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-11 09:42:15.444 [main] INFO  com.sun.files.Application - Started Application in 1.219 seconds (process running for 1.453)
+2025-04-11 09:42:24.766 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 09:42:24.766 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 09:42:24.767 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 09:42:24.809 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-11 09:42:24.874 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 10:13:00.231 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:13:00.233 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:13:01.855 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:13:01.877 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 54338 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 10:13:01.878 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-11 10:13:02.178 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 10:13:02.179 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 10:13:02.189 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-11 10:13:02.419 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-11 10:13:02.424 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-11 10:13:02.425 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:13:02.425 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:13:02.446 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:13:02.446 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
+2025-04-11 10:13:02.980 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-11 10:13:02.988 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-11 10:13:02.994 [main] INFO  com.sun.files.Application - Started Application in 1.327 seconds (process running for 1.578)
+2025-04-11 10:13:42.678 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 10:13:42.678 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 10:13:42.679 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 10:13:42.856 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.files.service.impl.UploaderServiceImpl ====
+2025-04-11 10:13:42.918 [http-nio-8004-exec-2] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 10:16:37.868 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:16:37.869 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:57:00.717 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:57:00.734 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 55847 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 10:57:00.734 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-11 10:57:01.015 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 10:57:01.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 10:57:01.027 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-11 10:57:01.095 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c986b42c-d42f-3c57-bce7-e93eadb029bf
+2025-04-11 10:57:01.276 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-11 10:57:01.281 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-11 10:57:01.282 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:57:01.282 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:57:01.303 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:57:01.304 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 557 ms
+2025-04-11 10:57:01.901 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-11 10:57:01.907 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-11 10:57:01.913 [main] INFO  com.sun.files.Application - Started Application in 1.448 seconds (process running for 1.801)
+2025-04-11 10:57:31.997 [http-nio-8004-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 10:57:31.997 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 10:57:31.998 [http-nio-8004-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 10:57:43.854 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:57:43.856 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:57:45.007 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:57:45.023 [main] INFO  com.sun.files.Application - Starting Application using Java 21.0.6 with PID 55891 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-files/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 10:57:45.023 [main] INFO  com.sun.files.Application - The following 1 profile is active: "dev"
+2025-04-11 10:57:45.303 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 10:57:45.304 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 10:57:45.314 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-04-11 10:57:45.378 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c986b42c-d42f-3c57-bce7-e93eadb029bf
+2025-04-11 10:57:45.565 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8004 (http)
+2025-04-11 10:57:45.572 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2025-04-11 10:57:45.572 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:57:45.572 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:57:45.596 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:57:45.596 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 560 ms
+2025-04-11 10:57:46.391 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2025-04-11 10:57:46.405 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8004 (http) with context path '/'
+2025-04-11 10:57:46.411 [main] INFO  com.sun.files.Application - Started Application in 1.605 seconds (process running for 1.893)

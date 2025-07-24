@@ -1,0 +1,4 @@
+com/sun/user/Application.class
+com/sun/user/mapper/AppUserMapper.class
+com/sun/user/controller/PassportController.class
+com/sun/user/mapper/FansMapper.class

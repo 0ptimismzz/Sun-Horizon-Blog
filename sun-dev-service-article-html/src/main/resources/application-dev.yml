@@ -1,0 +1,15 @@
+server:
+  port: 8002
+
+spring:
+  data:
+    redis:
+      port: 6379
+      database: 0
+      password: 12345678
+      host: 10.196.96.87
+
+
+# 设置域名在java代码中获取，这里是资源配置
+website:
+  domain-name: sun.com

@@ -1,0 +1,4 @@
+com/sun/admin/repository/FriendLinkRepository.class
+com/sun/admin/service/impl/FriendLinkServiceImpl.class
+com/sun/admin/controller/FriendLinkController.class
+com/sun/admin/service/FriendLinkService.class

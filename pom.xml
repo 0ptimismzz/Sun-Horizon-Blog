@@ -1,0 +1,237 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.sun</groupId>
+  <artifactId>sun-dev</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>sun-dev-common</module>
+    <module>sun-dev-model</module>
+    <module>sun-dev-service-api</module>
+    <module>sun-dev-service-user</module>
+      <module>sun-dev-service-files</module>
+    <module>sun-dev-service-admin</module>
+      <module>sun-dev-service-article</module>
+      <module>sun-dev-service-article-html</module>
+      <module>springcloud-eureka</module>
+      <module>springcloud-eureka-cluster</module>
+      <module>springcloud-eureka-cluster2</module>
+  </modules>
+
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.4.4</version>
+  </parent>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <java.version>21</java.version>
+
+    <mysql-connector-java.version>8.0.33</mysql-connector-java.version>
+    <mybatis-spring-boot-starter.version>3.0.3</mybatis-spring-boot-starter.version>
+    <mapper-spring-boot-starter.version>5.0.0</mapper-spring-boot-starter.version>
+    <pagehelper-spring-boot-starter.version>2.1.0</pagehelper-spring-boot-starter.version>
+
+    <springboot-freemarker.version>3.4.4</springboot-freemarker.version>
+
+    <okhttp.version>4.9.1</okhttp.version>
+    <jackson.version>2.18.2</jackson.version>
+
+    <commons-codec.version>1.17.0</commons-codec.version>
+    <commons-lang3.version>3.17.0</commons-lang3.version>
+    <commons-fileupload.version>1.4</commons-fileupload.version>
+    <google-guava.version>33.3.1-jre</google-guava.version>
+
+    <!--    <springfox-swagger2.version>3.0.0</springfox-swagger2.version>-->
+    <!--    <swagger-bootstrap-ui.version>1.9.6</swagger-bootstrap-ui.version>-->
+    <minio.version>8.4.1</minio.version>
+    <springdoc.version>2.3.0</springdoc.version>
+
+    <!--    <slf4j.version>1.7.21</slf4j.version>-->
+    <joda-time.version>2.13.0</joda-time.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- SpringCloud 依赖 -->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>2024.0.1</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+
+      <!-- 引入 mongodb 依赖 -->
+
+
+      <dependency>
+        <groupId>org.mongodb</groupId>
+        <artifactId>mongodb-driver-bom</artifactId>
+        <version>5.4.0</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <!--<dependency>-->
+      <!--  <groupId>org.mongodb</groupId>-->
+      <!--  <artifactId>mongodb-driver-sync</artifactId>-->
+      <!--  <version>5.1.1</version>-->
+      <!--</dependency>-->
+
+      <!-- mysql 驱动 -->
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql-connector-java.version}</version>
+      </dependency>
+      <!-- mybatis -->
+      <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>${mybatis-spring-boot-starter.version}</version>
+      </dependency>
+      <!-- 通用mapper逆向工具 -->
+      <dependency>
+        <groupId>tk.mybatis</groupId>
+        <artifactId>mapper-spring-boot-starter</artifactId>
+        <version>${mapper-spring-boot-starter.version}</version>
+      </dependency>
+      <!--pagehelper -->
+      <dependency>
+        <groupId>com.github.pagehelper</groupId>
+        <artifactId>pagehelper-spring-boot-starter</artifactId>
+        <version>${pagehelper-spring-boot-starter.version}</version>
+      </dependency>
+
+      <!--freemarker依赖-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-freemarker</artifactId>
+        <version>${springboot-freemarker.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp</artifactId>
+        <version>${okhttp.version}</version>
+      </dependency>
+
+      <!-- jackson -->
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>${jackson.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>${jackson.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson.version}</version>
+      </dependency>
+
+
+      <!--      <dependency>-->
+      <!--        <groupId>org.slf4j</groupId>-->
+      <!--        <artifactId>slf4j-simple</artifactId>-->
+      <!--        <version>${slf4j.version}</version>-->
+      <!--      </dependency>-->
+      <!-- apache 工具类 -->
+      <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>${commons-codec.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>${commons-lang3.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-fileupload</groupId>
+        <artifactId>commons-fileupload</artifactId>
+        <version>${commons-fileupload.version}</version>
+      </dependency>
+
+      <!-- google 工具类 -->
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${google-guava.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+        <version>${springdoc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+        <version>${springdoc.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-stdlib</artifactId>
+        <version>1.3.70</version>
+      </dependency>
+      <dependency>
+        <groupId>io.minio</groupId>
+        <artifactId>minio</artifactId>
+        <version>${minio.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+
+      <!-- joda-time 时间工具 -->
+      <dependency>
+        <groupId>joda-time</groupId>
+        <artifactId>joda-time</artifactId>
+        <version>${joda-time.version}</version>
+      </dependency>
+
+
+      <dependency>
+        <groupId>com.zaxxer</groupId>
+        <artifactId>HikariCP</artifactId>
+        <version>${hikaricp.version}</version> <!-- 替换为最新版本号，例如 5.0.1 -->
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <finalName>${project.artifactId}</finalName>
+    <plugins>
+      <!-- Java 编译 -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>21</source>
+          <target>21</target>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

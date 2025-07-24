@@ -1,0 +1,28 @@
+server:
+  port: 6500
+  tomcat:
+    uri-encoding: UTF-8
+
+
+spring:
+  application:
+    name: springcloud-eureka
+
+
+eureka:
+  instance:
+    hostname: eureka
+  client:
+    # 是否要把当前的eureka server注册到自己
+    register-with-eureka: false
+    # 从注册中心获得检索服务实例，server没有必要，直接false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    enable-self-preservation: false # 关闭eureka的自我保护功能
+    eviction-interval-timer-in-ms: 5000 # 清理无效节点的时间 ，可以缩短为5s
+
+
+
+

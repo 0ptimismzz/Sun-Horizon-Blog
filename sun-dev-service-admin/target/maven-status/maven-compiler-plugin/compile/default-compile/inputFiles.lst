@@ -1,0 +1,15 @@
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/Application.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/controller/AdminMngController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/controller/CategoryMngController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/controller/FriendLinkController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/controller/HelloController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/mapper/AdminUserMapper.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/mapper/CategoryMapper.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/repository/FriendLinkRepository.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/service/AdminUserService.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/service/CategoryService.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/service/FriendLinkService.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/service/impl/AdminUserServiceImpl.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/service/impl/CategoryServiceImpl.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/admin/service/impl/FriendLinkServiceImpl.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-admin/src/main/java/com/sun/config/BaiDuFaceConfig.java

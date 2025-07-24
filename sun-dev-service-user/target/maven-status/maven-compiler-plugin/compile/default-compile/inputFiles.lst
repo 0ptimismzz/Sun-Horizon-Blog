@@ -1,0 +1,14 @@
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/Application.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/controller/AppUserMngController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/controller/MyFansController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/controller/PassportController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/controller/TestLoadBalance.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/controller/UserController.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/mapper/AppUserMapper.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/mapper/FansMapper.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/service/AppUserMngService.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/service/MyFansService.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/service/UserService.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/service/impl/AppUserMngServiceImpl.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/service/impl/MyFansServiceImpl.java
+/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/src/main/java/com/sun/user/service/impl/UserServiceImpl.java

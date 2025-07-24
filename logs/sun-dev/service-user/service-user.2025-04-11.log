@@ -1,0 +1,116 @@
+2025-04-11 00:00:59.592 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=11m6s865ms).
+2025-04-11 00:17:22.941 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m23s349ms).
+2025-04-11 00:34:17.312 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m24s360ms).
+2025-04-11 00:52:05.476 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m48s127ms).
+2025-04-11 01:09:54.801 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=17m19s313ms).
+2025-04-11 01:29:16.792 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=17m51s972ms).
+2025-04-11 01:46:22.128 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=17m5s336ms).
+2025-04-11 02:02:35.463 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m43s331ms).
+2025-04-11 02:20:33.770 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=17m28s307ms).
+2025-04-11 02:26:51.118 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=6m17s348ms).
+2025-04-11 02:43:14.854 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m53s727ms).
+2025-04-11 03:01:24.292 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m39s412ms).
+2025-04-11 03:18:21.670 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m27s365ms).
+2025-04-11 03:34:47.014 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m25s344ms).
+2025-04-11 03:50:58.333 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m41s320ms).
+2025-04-11 04:09:35.387 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=18m7s50ms).
+2025-04-11 04:28:52.190 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m16s779ms).
+2025-04-11 05:44:24.297 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m31s395ms).
+2025-04-11 06:02:32.620 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=18m8s323ms).
+2025-04-11 06:18:35.952 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m33s340ms).
+2025-04-11 06:36:10.027 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m34s68ms).
+2025-04-11 06:53:46.373 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=17m6s339ms).
+2025-04-11 07:10:55.737 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=17m9s365ms).
+2025-04-11 07:27:16.080 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m50s334ms).
+2025-04-11 07:42:38.541 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=14m52s453ms).
+2025-04-11 07:47:11.924 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=4m3s360ms).
+2025-04-11 08:04:26.269 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=17m14s345ms).
+2025-04-11 08:20:33.625 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=15m37s348ms).
+2025-04-11 08:38:17.439 [DataSourceHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - DataSourceHikariCP - Thread starvation or clock leap detected (housekeeper delta=16m43s786ms).
+2025-04-11 09:35:31.445 [http-nio-8003-exec-6] WARN  c.s.u.controller.PassportController - 4758
+2025-04-11 09:35:39.782 [http-nio-8003-exec-8] WARN  jakarta.persistence.spi - jakarta.persistence.spi::No valid providers found.
+2025-04-11 09:35:39.786 [http-nio-8003-exec-8] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-11 09:35:39.795 [http-nio-8003-exec-8] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 09:42:42.951 [http-nio-8003-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-11 09:42:43.070 [http-nio-8003-exec-7] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 09:42:44.514 [http-nio-8003-exec-9] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-11 09:42:44.517 [http-nio-8003-exec-1] INFO  com.sun.api.aspect.ServiceLogAspect - ==== 开始执行 ｛｝.class com.sun.user.service.impl.UserServiceImpl ====
+2025-04-11 09:42:44.517 [http-nio-8003-exec-9] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 09:42:44.519 [http-nio-8003-exec-1] INFO  com.sun.api.aspect.ServiceLogAspect - 当前执行耗时：｛｝
+2025-04-11 10:13:07.676 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:13:07.677 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:13:07.685 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DataSourceHikariCP - Shutdown initiated...
+2025-04-11 10:13:07.686 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DataSourceHikariCP - Shutdown completed.
+2025-04-11 10:13:08.793 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:13:08.809 [main] INFO  com.sun.user.Application - Starting Application using Java 21.0.6 with PID 54352 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 10:13:08.809 [main] INFO  com.sun.user.Application - The following 1 profile is active: "dev"
+2025-04-11 10:13:09.079 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 10:13:09.079 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 10:13:09.090 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-04-11 10:13:09.131 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sun.user]' package. Please check your configuration.
+2025-04-11 10:13:09.366 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8003 (http)
+2025-04-11 10:13:09.370 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2025-04-11 10:13:09.371 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:13:09.371 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:13:09.386 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:13:09.386 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 561 ms
+2025-04-11 10:13:09.796 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2025-04-11 10:13:09.796 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2025-04-11 10:13:09.796 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2025-04-11 10:13:09.796 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2025-04-11 10:13:09.939 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2025-04-11 10:13:09.946 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8003 (http) with context path '/'
+2025-04-11 10:13:09.950 [main] INFO  com.sun.user.Application - Started Application in 1.354 seconds (process running for 1.599)
+2025-04-11 10:13:15.923 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 10:13:15.923 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 10:13:15.924 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 10:16:39.964 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:16:39.966 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:56:59.004 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:56:59.020 [main] INFO  com.sun.user.Application - Starting Application using Java 21.0.6 with PID 55845 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 10:56:59.020 [main] INFO  com.sun.user.Application - The following 1 profile is active: "dev"
+2025-04-11 10:56:59.549 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 10:56:59.550 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 10:56:59.567 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2025-04-11 10:56:59.640 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sun.user]' package. Please check your configuration.
+2025-04-11 10:56:59.691 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d5e48d8b-0453-333c-920a-4cabd1a612c6
+2025-04-11 10:57:00.043 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8003 (http)
+2025-04-11 10:57:00.050 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2025-04-11 10:57:00.051 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:57:00.051 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:57:00.073 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:57:00.073 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1036 ms
+2025-04-11 10:57:00.721 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2025-04-11 10:57:00.722 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2025-04-11 10:57:00.722 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2025-04-11 10:57:00.722 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2025-04-11 10:57:00.910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2025-04-11 10:57:00.918 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8003 (http) with context path '/'
+2025-04-11 10:57:00.924 [main] INFO  com.sun.user.Application - Started Application in 2.135 seconds (process running for 2.489)
+2025-04-11 10:57:45.115 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 10:57:45.117 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-11 10:57:46.376 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-04-11 10:57:46.394 [main] INFO  com.sun.user.Application - Starting Application using Java 21.0.6 with PID 55894 (/Users/horizon/Desktop/project/sun-dev/sun-dev-service-user/target/classes started by horizon in /Users/horizon/Desktop/project/sun-dev)
+2025-04-11 10:57:46.394 [main] INFO  com.sun.user.Application - The following 1 profile is active: "dev"
+2025-04-11 10:57:46.702 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-04-11 10:57:46.703 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-04-11 10:57:46.714 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-04-11 10:57:46.767 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sun.user]' package. Please check your configuration.
+2025-04-11 10:57:46.799 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d5e48d8b-0453-333c-920a-4cabd1a612c6
+2025-04-11 10:57:47.021 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8003 (http)
+2025-04-11 10:57:47.027 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8003"]
+2025-04-11 10:57:47.028 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-11 10:57:47.028 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 10:57:47.048 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-11 10:57:47.048 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 635 ms
+2025-04-11 10:57:47.483 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2025-04-11 10:57:47.484 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2025-04-11 10:57:47.484 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2025-04-11 10:57:47.484 [main] INFO  t.m.m.a.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2025-04-11 10:57:47.651 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8003"]
+2025-04-11 10:57:47.658 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8003 (http) with context path '/'
+2025-04-11 10:57:47.664 [main] INFO  com.sun.user.Application - Started Application in 1.547 seconds (process running for 1.882)
+2025-04-11 11:00:16.470 [http-nio-8003-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-11 11:00:16.471 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-11 11:00:16.472 [http-nio-8003-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-04-11 11:28:27.297 [http-nio-8003-exec-10] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 114 ms

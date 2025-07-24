@@ -1,0 +1,11 @@
+server:
+  port: 8004
+
+spring:
+  data:
+    redis:
+      port: 6379
+      database: 0
+      password: 12345678
+      host: 10.196.96.87
+

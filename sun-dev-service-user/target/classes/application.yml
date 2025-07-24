@@ -1,0 +1,71 @@
+server:
+  port: 8003
+  tomcat:
+    uri-encoding: UTF-8
+    max-swallow-size: -1
+
+
+spring:
+  data:
+    redis:
+      port: 6379
+      database: 0
+      password: 12345678
+      host: 10.196.82.37
+  application:
+    name: service-user
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/horizon
+    username: root
+    password: 12345678
+    hikari:
+#      connection-timeout: 30000
+      connection-timeout: 250
+      minimum-idle: 2
+      maximum-pool-size: 10
+      auto-commit: true
+      idle-timeout: 600000
+#      idle-timeout: 300000 # test high stress
+      pool-name: DataSourceHikariCP
+      max-lifetime: 1800000
+      connection-test-query: SELECT 1
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+
+mybatis:
+  type-aliases-package: com.sun.pojo
+  mapper-locations: classpath:mapper/*.xml
+
+mapper:
+  mappers: com.sun.my.mapper.MyMapper
+  not-empty: false
+  identity: MYSQL
+
+pagehelper:
+  helper-dialect: mysql
+  support-methods-arguments: true
+
+website:
+  domain-name: sun.com
+
+
+#eureka:
+#  instance:
+#    instance-id: ${eureka.server.loc}:${server.port}
+#    prefer-ip-address: true
+#  server:
+#    hostname: eureka
+#    port: 6500
+#    loc: user.sun.com
+#  client:
+#    # 是否要把当前的eureka server注册到自己
+#    register-with-eureka: true
+#    # 从注册中心获得检索服务实例，server没有必要，直接false
+#    fetch-registry: true
+#    service-url:
+##      defaultZone: http://eureka-cluster-6501:6501/eureka/,http://eureka-cluster-6502:6502/eureka/
+#      defaultZone: http://${eureka.server.hostname}:${eureka.server.port}/eureka/
