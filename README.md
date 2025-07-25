@@ -7,4 +7,4 @@ The portal platform provides users with a high-quality reading and interactive e
 ## Writer's Center
 The writer's center has built a convenient aontent output channel for creators, supporting independent publishing and retraction of their articles.
 ## Operation Center
-The operation center has built a rigorous dual. The review system first uses Baidu AI to intelligently review the article, and then calls the Tongyi Qianwen assistant administrator to conduct a second review by writing a prompt (Prompt). Control the compliance of articles, and administrators can freeze non-compliant users to ensure the healthy ecology of the platform.
+The operation center has built a rigorous dual. The review system first uses Baidu AI to intelligently review the article, and then calls the Qwen assistant administrator to conduct a second review by writing a prompt (Prompt). Control the compliance of articles, and administrators can freeze non-compliant users to ensure the healthy ecology of the platform.
